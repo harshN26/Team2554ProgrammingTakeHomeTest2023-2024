@@ -95,7 +95,8 @@ public class Robot extends TimedRobot {
 
       elev.moveElevAuto(elev.buttonPresses++);
     }
-
+    
+    elev.displaySmartDashboard(drive);
 
   }
 
